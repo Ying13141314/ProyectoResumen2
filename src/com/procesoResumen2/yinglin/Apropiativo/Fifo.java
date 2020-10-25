@@ -56,7 +56,7 @@ public class Fifo {
         float resultadoTotal = indiceTotal/numeroProceso;
 
         //Mustra por pantalla el índice de penalización medio.
-        System.out.println("\nEl índice de penalizacion medio es : "+resultadoTotal);
+        System.out.format("\nEl índice de penalizacion medio es : %.2f",resultadoTotal);
 
         System.out.println("\nProceso terminado\n");
     }
